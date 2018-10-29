@@ -8,6 +8,9 @@ get '/' do
   'This is the evaluator.'
 end
 
+# @param id  [Integer] id of the evaluation to update
+# @param age [Integer]
+# and more indications ...
 post '/evaluate' do
   callback(evaluate)
   204
